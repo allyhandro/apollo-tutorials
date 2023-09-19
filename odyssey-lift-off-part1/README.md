@@ -1,6 +1,12 @@
-# Odyssey Lift-off I: Basics
+# To Apollo, and Beyond!
 
-Welcome to the companion app of Odyssey Lift-off I! You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part1), Apollo's learning platform.
+Welcome to my local versioin of companion app of Odyssey Lift-off I! I removed the final folder that is usually here as an example to just show my own edits. Made a few light changes to the suggested tutorials for `/server` and `/client` dirs to show some personality, and remind my future self what this is. 
+
+The `/server` mini app also experiements with the [Prettier](https://prettier.io/) linter as there are a few collegues that have been trying to evangelize it's usage. 
+
+
+# OG docs
+You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part1), Apollo's learning platform.
 
 You can [preview the completed demo app here](https://odyssey-catstronauts.netlify.app/).
 
