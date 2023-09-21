@@ -1,5 +1,8 @@
 import { TrackAPI } from './datasources/track-api';
-export const resolvers = {
+// import generated resolver types from generated types.ts
+import { Resolvers } from "./types"
+
+export const resolvers: Resolvers = {
   Query: {
     tracksForHome: (_, __, { dataSources }) => {
       return dataSources.trackAPI.getTracksForHome();
@@ -8,7 +11,7 @@ export const resolvers = {
 
   Track: {
     author: ({ authorId }, _, { dataSources }) => {
-        return dataSources.TrackAPI.getAuthor(authorId);
+        return dataSources.trackAPI.getAuthor(authorId);
     }
   }
 };
